@@ -14,3 +14,22 @@ canvas_binary_host_mirror=https://registry.npmmirror.com/-/binary/canvas
 node_sqlite3_binary_host_mirror=https://registry.npmmirror.com/-/binary/sqlite3
 better_sqlite3_binary_host_mirror=https://registry.npmmirror.com/-/binary/better-sqlite3
 ```
+
+> NVM NODEJS PATH
+```
+export NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node/
+```
+
+> Electron PATH
+```
+export ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/
+```
+
+> HomeBrew PATH
+```
+export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
+export HOMEBREW_PIP_INDEX_URL="https://pypi.tuna.tsinghua.edu.cn/simple"
+```
