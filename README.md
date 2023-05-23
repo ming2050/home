@@ -1,4 +1,4 @@
-> NPM镜像配置
+> NPM镜像配置 ~/.npmrc
 ```
 registry=https://registry.npmmirror.com
 disturl=https://registry.npmmirror.com/-/binary/node/
@@ -13,6 +13,8 @@ electron_builder_binaries_mirror=https://registry.npmmirror.com/-/binary/electro
 canvas_binary_host_mirror=https://registry.npmmirror.com/-/binary/canvas
 node_sqlite3_binary_host_mirror=https://registry.npmmirror.com/-/binary/sqlite3
 better_sqlite3_binary_host_mirror=https://registry.npmmirror.com/-/binary/better-sqlite3
+# chromedriver
+chromedriver_cdnurl=https://npmmirror.com/mirrors/chromedriver/
 ```
 
 > NVM NODEJS PATH
